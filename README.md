@@ -2,6 +2,8 @@
 
 A small macOS SwiftUI app that lets you adjust the spacing between menu bar status items. It reads and writes the `NSStatusItemSpacing` preference and shows a live preview before you apply changes.
 
+<img width="612" height="482" alt="MenuBarSpacer" src="https://github.com/user-attachments/assets/b767c127-3092-47cf-8906-0129e938f7dc" />
+
 ## Features
 - Read the current menu bar spacing (custom or system default)
 - Adjust spacing with a slider and live preview
@@ -15,6 +17,7 @@ MenuBarSpacer uses the macOS `defaults` system to read/write the `NSStatusItemSp
 ## Requirements
 - macOS with Xcode installed
 - Swift 5.7+ (Xcode-managed)
+![Uploading MenuBarSpacer.png…]()
 
 ## Build & Run
 1. Open `MenuBarSpacer.xcodeproj` in Xcode.
